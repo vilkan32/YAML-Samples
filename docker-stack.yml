@@ -30,9 +30,7 @@ service:
         - front-end
     deploy:
           replicas: 2
-          update_config:
-            parallelism: 2
-            
+          
   result:
     image: result-app
     ports:
